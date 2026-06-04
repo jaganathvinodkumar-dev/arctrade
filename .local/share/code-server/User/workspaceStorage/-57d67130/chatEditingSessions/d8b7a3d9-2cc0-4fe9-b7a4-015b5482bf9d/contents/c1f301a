@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ArcTrade | Contact</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <style>
+    html,body{margin:0;padding:0;font-family:Inter, Arial, sans-serif;background:var(--bg,#f5f7fb);color:var(--text,#1f2937)}
+    .navbar{display:flex;align-items:center;justify-content:space-between;padding:14px}
+    .contact-form{padding:18px}
+  </style>
+</head>
+<body>
+  <header class="navbar">
+    <div class="brand"><a href="index.html">ArcTrade</a></div>
+    <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">☰</button>
+    <nav class="nav-menu" id="nav-menu">
+      <a href="index.html">Home</a>
+      <a href="markets.html">Markets</a>
+      <a href="stock.html">Stock</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="watchlist.html">Watchlist</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <button class="theme-toggle" id="theme-btn">🌙</button>
+  </header>
+
+  <main>
+    <section class="contact-hero">
+      <div>
+        <span class="eyebrow">Get in Touch</span>
+        <h1>Have questions or need help?</h1>
+        <p>Reach out and our support team will respond promptly.</p>
+      </div>
+      <div class="contact-card">
+        <div>
+          <h3>Contact details</h3>
+          <p>Email: support@arctrade.com</p>
+          <p>Phone: +91 98765 43210</p>
+          <p>Address: Mumbai, India</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-form-section">
+      <form class="contact-form" id="contact-form" novalidate>
+        <div class="form-row">
+          <label>Full Name<input type="text" id="contact-name" name="name" required></label>
+          <label>Email Address<input type="email" id="contact-email" name="email" required></label>
+        </div>
+        <label>Message<textarea id="contact-message" name="message" rows="6" required></textarea></label>
+        <div class="form-actions">
+          <button class="btn btn-primary" type="submit">Send Message</button>
+          <span class="form-status" id="form-status"></span>
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div><h3>ArcTrade</h3><p>Fast support and better trading decisions.</p></div>
+    <div class="footer-links"><a href="index.html">Home</a><a href="markets.html">Markets</a></div>
+  </footer>
+
+  <script src="js/theme.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

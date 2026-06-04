@@ -1,0 +1,14 @@
+{
+  "socketPath": "/tmp/mcp-TvhA14/mcp.sock",
+  "scheme": "unix",
+  "headers": {
+    "Authorization": "Nonce 7dfd436e-82f5-4dfc-b27b-a22d606523ff"
+  },
+  "pid": 2108,
+  "ideName": "code-server",
+  "timestamp": 1780569983284,
+  "workspaceFolders": [
+    "/home/JaganathVinodKumar"
+  ],
+  "isTrusted": true
+}

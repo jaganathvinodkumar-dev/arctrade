@@ -1,0 +1,98 @@
+@media (max-width: 768px) {
+  .hero-section,
+  .stock-hero,
+  .portfolio-hero,
+  .contact-hero,
+  .page-intro {
+    grid-template-columns: 1fr;
+  }
+
+  .info-grid,
+  .feature-grid,
+  .testimonial-grid,
+  .index-grid,
+  .trending-grid,
+  .portfolio-cards,
+  .stock-detail-cards,
+  .watchlist-grid,
+  .market-sections,
+  .form-row {
+    grid-template-columns: 1fr;
+  }
+
+  .nav-menu {
+    width: 100%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .hero-section,
+  .stock-hero,
+  .portfolio-hero,
+  .contact-hero,
+  .page-intro {
+    gap: 24px;
+  }
+}
+
+@media (max-width: 1440px) {
+  .navbar,
+  .main,
+  footer {
+    width: min(100%, calc(100% - 32px));
+  }
+}
+
+/* Additional responsive refinements */
+
+@media (max-width: 768px) {
+  .navbar {
+    padding: 10px 14px;
+  }
+
+  .brand a { font-size: 1.25rem; }
+
+  .nav-toggle {
+    display: inline-flex;
+    font-size: 1.25rem;
+  }
+
+  .nav-menu {
+    display: none;
+    width: 100%;
+    margin-top: 8px;
+    padding: 14px;
+  }
+
+  .nav-menu.open {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .nav-menu a { padding: 10px 8px; }
+
+  .theme-toggle { order: 3; }
+
+  .hero-copy h1 { font-size: 1.6rem; }
+  .section-heading h2 { font-size: 1.2rem; }
+  .testimonial-grid, .feature-grid { grid-template-columns: 1fr; }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .hero-copy h1 { font-size: 2.2rem; }
+  .brand a { font-size: 1.4rem; }
+  .index-grid, .trending-grid { grid-template-columns: repeat(2, 1fr); }
+  .feature-grid { grid-template-columns: repeat(2, minmax(180px,1fr)); }
+}
+
+@media (min-width: 1025px) and (max-width: 1440px) {
+  .hero-copy h1 { font-size: clamp(2.2rem, 3vw, 2.8rem); }
+  .index-grid { grid-template-columns: repeat(3, 1fr); }
+  .trending-grid { grid-template-columns: repeat(3, 1fr); }
+  .navbar { width: min(1000px, calc(100% - 40px)); }
+}
+
+@media (min-width: 1441px) {
+  .navbar { width: 1120px; }
+}

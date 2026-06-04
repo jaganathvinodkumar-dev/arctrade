@@ -1,0 +1,5 @@
+2026-06-04 12:01:23.681 [info] Extension host with pid 24260 started
+2026-06-04 12:01:23.686 [info] Lock '/home/JaganathVinodKumar/.local/share/code-server/User/workspaceStorage/-57d67130/vscode.lock': Lock acquired.
+2026-06-04 12:01:23.820 [info] Eager extensions activated
+2026-06-04 12:01:23.825 [error] Error: connect ENOENT /home/JaganathVinodKumar/.local/share/code-server/code-server-ipc.sock
+	at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1705:16)

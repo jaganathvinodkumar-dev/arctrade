@@ -1,0 +1,12 @@
+{
+  "name": "arctrade-screenshots",
+  "version": "1.0.0",
+  "description": "Capture responsive screenshots for ArcTrade site",
+  "private": true,
+  "scripts": {
+    "capture": "node capture.js"
+  },
+  "dependencies": {
+    "puppeteer": "^20.0.0"
+  }
+}

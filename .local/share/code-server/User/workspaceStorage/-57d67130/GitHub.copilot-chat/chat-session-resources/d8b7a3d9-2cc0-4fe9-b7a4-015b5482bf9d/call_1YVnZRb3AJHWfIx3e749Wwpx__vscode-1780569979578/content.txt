@@ -1,0 +1,268 @@
+--- arc-trade/contact.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ArcTrade | Contact</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/responsive.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <style>
+    html,body{margin:0;padding:0;font-family:Inter, Arial, sans-serif;background
+:var(--bg,#f5f7fb);color:var(--text,#1f2937)}
+    .navbar{display:flex;align-items:center;justify-content:space-between;paddin
+g:14px}
+    .contact-form{padding:18px}
+  </style>
+</head>
+<body>
+  <header class="navbar">
+    <div class="brand"><a href="index.html">ArcTrade</a></div>
+    <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">☰<
+/button>
+    <nav class="nav-menu" id="nav-menu">
+      <a href="index.html">Home</a>
+      <a href="markets.html">Markets</a>
+      <a href="stock.html">Stock</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="watchlist.html">Watchlist</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <button class="theme-toggle" id="theme-btn">🌙</button>
+  </header>
+
+  <main>
+    <section class="contact-hero">
+      <div>
+        <span class="eyebrow">Get in Touch</span>
+        <h1>Have questions or need help?</h1>
+        <p>Reach out and our support team will respond promptly.</p>
+      </div>
+      <div class="contact-card">
+        <div>
+--- arc-trade/index.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ArcTrade | Home</title>
+ <link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/responsive.css">
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <style>
+   /* Inline fallback core styles to ensure basic layout if stylesheet fails to
+load */
+   html,body{margin:0;padding:0;font-family:Inter, Arial, sans-serif;background:
+var(--bg, #f5f7fb);color:var(--text,#1f2937);} 
+   .navbar{display:flex;align-items:center;justify-content:space-between;padding
+:16px}
+   .brand a{font-weight:700;font-size:1.25rem}
+   .nav-menu{display:flex;gap:14px}
+   .nav-toggle{display:none}
+   .theme-toggle{background:transparent;border:none;cursor:pointer}
+   .hero-section{padding:28px 0}
+   a{color:#2563eb}
+ </style>
+</head>
+<body>
+  <header class="navbar">
+    <div class="brand">
+      <a href="index.html">ArcTrade</a>
+    </div>
+    <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">☰<
+/button>
+    <nav class="nav-menu" id="nav-menu">
+      <a href="index.html">Home</a>
+      <a href="markets.html">Markets</a>
+      <a href="stock.html">Stock</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="watchlist.html">Watchlist</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <button class="theme-toggle" id="theme-btn">🌙</button>
+  </header>
+
+  <main>
+--- arc-trade/markets.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ArcTrade | Markets</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/responsive.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <style>
+    html,body{margin:0;padding:0;font-family:Inter, Arial, sans-serif;background
+:var(--bg,#f5f7fb);color:var(--text,#1f2937)}
+    .navbar{display:flex;align-items:center;justify-content:space-between;paddin
+g:14px}
+    .nav-menu{display:flex;gap:12px}
+    .theme-toggle{background:transparent;border:none}
+    input[type=search]{padding:10px;border-radius:12px;border:1px solid #e5e7eb}
+  </style>
+</head>
+<body>
+  <header class="navbar">
+    <div class="brand"><a href="index.html">ArcTrade</a></div>
+    <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">☰<
+/button>
+    <nav class="nav-menu" id="nav-menu">
+      <a href="index.html">Home</a>
+      <a href="markets.html">Markets</a>
+      <a href="stock.html">Stock</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="watchlist.html">Watchlist</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <button class="theme-toggle" id="theme-btn">🌙</button>
+  </header>
+
+  <main>
+    <section class="page-intro">
+      <div>
+        <span class="eyebrow">Market Data</span>
+        <h1>Live markets and top movers.</h1>
+        <p>Track indices, gainers, losers, and trending stocks with one view.</p
+>
+      </div>
+--- arc-trade/portfolio.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ArcTrade | Portfolio</title>
+  <link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/responsive.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <style>
+     html,body{margin:0;padding:0;font-family:Inter, Arial, sans-serif;backgroun
+d:var(--bg,#f5f7fb);color:var(--text,#1f2937)}
+     .navbar{display:flex;align-items:center;justify-content:space-between;paddi
+ng:14px}
+     .portfolio-hero{padding:20px 0}
+   </style>
+</head>
+<body>
+  <header class="navbar">
+    <div class="brand"><a href="index.html">ArcTrade</a></div>
+    <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">☰<
+/button>
+    <nav class="nav-menu" id="nav-menu">
+      <a href="index.html">Home</a>
+      <a href="markets.html">Markets</a>
+      <a href="stock.html">Stock</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="watchlist.html">Watchlist</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <button class="theme-toggle" id="theme-btn">🌙</button>
+  </header>
+
+  <main>
+    <section class="portfolio-hero">
+      <span class="eyebrow">Portfolio</span>
+      <h1>Total Portfolio Value</h1>
+      <p class="portfolio-value">₹262,400</p>
+      <div class="portfolio-cards">
+        <div class="mini-card">
+          <h4>Profit / Loss</h4>
+          <p class="up">+₹14,600</p>
+--- arc-trade/stock.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ArcTrade | Stock Details</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/responsive.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <style>
+    html,body{margin:0;padding:0;font-family:Inter, Arial, sans-serif;background
+:var(--bg,#f5f7fb);color:var(--text,#1f2937)}
+    .navbar{display:flex;align-items:center;justify-content:space-between;paddin
+g:14px}
+    .stock-hero{padding:20px 0}
+    .theme-toggle{background:transparent;border:none}
+  </style>
+</head>
+<body>
+  <header class="navbar">
+    <div class="brand"><a href="index.html">ArcTrade</a></div>
+    <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">☰<
+/button>
+    <nav class="nav-menu" id="nav-menu">
+      <a href="index.html">Home</a>
+      <a href="markets.html">Markets</a>
+      <a href="stock.html">Stock</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="watchlist.html">Watchlist</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <button class="theme-toggle" id="theme-btn">🌙</button>
+  </header>
+
+  <main>
+    <section class="stock-hero">
+      <div>
+        <span class="eyebrow">Stock Details</span>
+        <h1>Reliance Industries</h1>
+        <p>₹2900 <span class="tag up">+2.5%</span></p>
+        <p class="stock-description">Reliance Industries is a diversified conglo
+merate with leadership across energy, retail, telecom, and digital services.</p>
+        <div class="cta-group">
+--- arc-trade/watchlist.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ArcTrade | Watchlist</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/responsive.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <style>
+    html,body{margin:0;padding:0;font-family:Inter, Arial, sans-serif;background
+:var(--bg,#f5f7fb);color:var(--text,#1f2937)}
+    .navbar{display:flex;align-items:center;justify-content:space-between;paddin
+g:14px}
+    .watchlist-controls{display:flex;gap:12px}
+  </style>
+</head>
+<body>
+  <header class="navbar">
+    <div class="brand"><a href="index.html">ArcTrade</a></div>
+    <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">☰<
+/button>
+    <nav class="nav-menu" id="nav-menu">
+      <a href="index.html">Home</a>
+      <a href="markets.html">Markets</a>
+      <a href="stock.html">Stock</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="watchlist.html">Watchlist</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <button class="theme-toggle" id="theme-btn">🌙</button>
+  </header>
+
+  <main>
+    <section class="page-intro">
+      <div>
+        <span class="eyebrow">Watchlist</span>
+        <h1>Track stocks you care about.</h1>
+        <p>Search, add, and remove stocks from your watchlist instantly.</p>
+      </div>
+      <div class="watchlist-controls">
+        <input type="search" id="watchlist-search" placeholder="Filter your watc
+hlist...">
