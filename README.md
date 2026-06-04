@@ -2,6 +2,12 @@
 
 ArcTrade is a responsive stock market frontend built with HTML, CSS, and JavaScript.
 
+## Live demo
+
+The project is deployed on GitHub Pages at:
+
+https://jaganathvinodkumar-dev.github.io/arctrade/
+
 ## Features
 
 - Homepage with hero, company intro, features, market overview, testimonials, and footer
@@ -30,3 +36,13 @@ ArcTrade is a responsive stock market frontend built with HTML, CSS, and JavaScr
 ## How to use
 
 Open `index.html` in your browser, or serve the folder with a static server.
+
+## Deployment
+
+This repository includes a GitHub Actions workflow at `.github/workflows/pages.yml` that deploys the site to GitHub Pages from the `main` branch.
+
+When a push is made to `main`, the site will be published to `gh-pages` automatically.
+
+## License
+
+MIT License — see `LICENSE`.
